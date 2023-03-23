@@ -100,6 +100,15 @@ a {
   text-decoration: none;
 }
 
+.header {
+  width: 100%;
+  padding: 50px 0px 50px;
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
