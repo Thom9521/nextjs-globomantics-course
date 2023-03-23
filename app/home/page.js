@@ -1,18 +1,19 @@
-import Link from "next/link";
+import Image from 'next/image';
+import ODNS from '../images/rearrange_it_meme.jpg'
 
 export default function Page() {
     return (
       <>
         <h1>Home</h1>
-        <h2>
-          <Link href="/blog">Blog</Link>
-        </h2>
-        <h2>
-          <Link href="/settings">Settings</Link>
-        </h2>
-        <h2>
-          <Link href="/conference">Conference</Link>
-        </h2>
+        <div>
+          <Image 
+          src={ODNS} 
+          alt="meme" 
+          quality={100} 
+          placeholder="blur"
+          style={{objectFit: "contain"}}
+          />
+        </div>
       </>
     )
   }
